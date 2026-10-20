@@ -15,7 +15,6 @@ Telegram Bot API
 Alpay OpenAPI
 
 # 实现方式
-
 ├── 触发入口
 │   ├── Telegram Webhook (HTTP POST)
 │   │   └── API Gateway → lambda_function.py
