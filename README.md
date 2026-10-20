@@ -158,9 +158,3 @@ pending_pay -> creating -> running -> destroyed
 - 云服务器自动化订购
 - Tuic / 代理节点部署
 - 简单的低成本无服务器运维场景
-
-如果你有需要，我也可以继续整理成：
-- 更完整的 GitHub README 版本
-- 英文版 README
-- 带部署步骤的完整版 README
-- 更偏产品展示风格的 README
