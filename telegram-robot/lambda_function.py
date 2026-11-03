@@ -33,9 +33,8 @@ def lambda_handler(event, context):
         "/start":        lambda: handle_start(chat_id),
         "/buy":          lambda: handle_buy(chat_id),
         "/myservers":    lambda: handle_my_servers(chat_id, user_id),
-        "/traffic":      lambda: handle_my_servers(chat_id, user_id),
-        "🛒 购买服务器":  lambda: handle_buy(chat_id),        # 新增
-        "📊 我的服务器":  lambda: handle_my_servers(chat_id, user_id),  # 新增
+        "🛒 购买服务器":  lambda: handle_buy(chat_id),
+        "📊 我的服务器":  lambda: handle_my_servers(chat_id, user_id),
     }
     routes.get(text, lambda: handle_start(chat_id))()
 
