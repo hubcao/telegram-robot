@@ -112,6 +112,14 @@ telegram-robot/
 │
 ├── traffic-updater/
 │   └── lambda_function.py      # 入口，采集流量 + 写入 DynamoDB
+│
+├── user-api/                   # 预留前端用户登录接口 + Telegram 登录
+│   ├── lambda_function.py      
+│   ├── auth.py
+│   └── db/
+│       ├── __init__.py
+│       └── servers.py
+│
 ```
 
 ---
@@ -427,7 +435,7 @@ https://your-api-id.execute-api.your-region.amazonaws.com/default/payment-callba
 
 ---
 
-## 13. 未来规划
+## 13. 付费拓展
 
 与网页版后台管理同步，付费项目，需定制单独购买，目前项目稳定运行中。
 
